@@ -1,0 +1,46 @@
+Add New Product
+		POST		http://localhost:9900/product/addNewProduct
+				{
+				    "productID": 0,
+				    "name": "Samsung G9",
+				    "quantity":7,
+				    "price": 45000,
+				    "status": "Active",
+				   "category": {
+					"categoryId": 31,
+					"categoryName": "Mobiles",
+					"status": "Active"
+				    }
+				}
+				
+Update Product
+		PUT		http://localhost:9900/product/updateProduct
+				{
+				    "productID": 35,
+				    "name": "Samsung G9",
+				    "quantity":10,
+				    "price": 45000,
+				    "status": "Active"
+				}
+
+Delete Product
+		DELETE		http://localhost:9900/product/deleteProduct/21
+
+Pagination : 
+		GET		http://localhost:9900/product/getAllProducts/1
+		GET		http://localhost:9900/product/getAllProducts/2
+		
+		
+Pagination and Sorting :
+
+		GET		http://localhost:9900/product/getAllProductsSort/1?field=name&by=asc
+		GET		http://localhost:9900/product/getAllProductsSort/1?field=name&by=desc
+		GET		http://localhost:9900/product/getAllProductsSort/1?field=price&by=asc
+		GET		http://localhost:9900/product/getAllProductsSort/1?field=price&by=desc
+		GET		http://localhost:9900/product/getAllProductsSort/1?field=quantity&by=asc
+		GET		http://localhost:9900/product/getAllProductsSort/1?field=quantity&by=desc
+		
+Pagination and Sorting and Searching
+		GET		http://localhost:9900/product/getAllProductsbyName/1?field=name&by=asc&value=Formal-Suite
+		GET		http://localhost:9900/product/getAllProductsbyPrice/1?field=name&by=asc&value=75000
+		GET		http://localhost:9900/product/getAllProductsbyCategory/1?field=name&by=asc&value=38
