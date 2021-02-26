@@ -1,0 +1,11 @@
+/home/thinkitive/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/ProductCategoryCRUD/src/main/java/com/akash/ProductCategoryCrudApplication.java
+/home/thinkitive/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/ProductCategoryCRUD/src/main/java/com/akash/controller/CategoryController.java
+/home/thinkitive/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/ProductCategoryCRUD/src/main/java/com/akash/model/Products.java
+/home/thinkitive/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/ProductCategoryCRUD/src/main/java/com/akash/model/Category.java
+/home/thinkitive/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/ProductCategoryCRUD/src/main/java/com/akash/repository/CategoryRepository.java
+/home/thinkitive/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/ProductCategoryCRUD/src/main/java/com/akash/service/CategoryServiceImplementation.java
+/home/thinkitive/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/ProductCategoryCRUD/src/main/java/com/akash/controller/ProductController.java
+/home/thinkitive/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/ProductCategoryCRUD/src/main/java/com/akash/repository/ProductRepository.java
+/home/thinkitive/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/ProductCategoryCRUD/src/main/java/com/akash/service/CategoryService.java
+/home/thinkitive/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/ProductCategoryCRUD/src/main/java/com/akash/service/ProductServiceImplementation.java
+/home/thinkitive/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/ProductCategoryCRUD/src/main/java/com/akash/service/ProductService.java
